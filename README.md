@@ -1,6 +1,6 @@
 # jboss-configuration-files
 JBoss 운영에 필요한 파일들입니다.
-
+---
 ## Jboss-configuration
 ### 파일 구성
 - env.sh
@@ -15,3 +15,8 @@ JBoss 운영에 필요한 파일들입니다.
 - - jboss admin 권한으로 접근하는 console 실행
 - oracleDS.txt
 - - 예제 DB 설정값
+---
+## Jboss-test-applications
+### 파일 구성
+jboss_upload.war / jboss.war
+- 스프링부트 기반 어플리케이션 / upload 기능 / dbtest(select 조회 확인) / session 정보 확인
