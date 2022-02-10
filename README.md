@@ -4,7 +4,7 @@ JBoss 운영에 필요한 파일들입니다.
 ## Jboss-configuration
 ### 파일 구성
 - env.sh
-환경설정 값 기입 (포트, ip 주소, 로그 경로, java 옵션 등)
+- - 환경설정 값 기입 (포트, ip 주소, 로그 경로, java 옵션 등)
 - start.sh
 nohup으로 jboss 기동(background 실행)
 - stop.sh
